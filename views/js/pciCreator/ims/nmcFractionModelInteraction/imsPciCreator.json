@@ -1,0 +1,45 @@
+{
+    "model" : "IMSPCI",
+    "typeIdentifier": "nmcFractionModelInteraction",
+    "label": "NMC Fraction Model Interaction",
+    "short": "NMC Fraction Model",
+    "description": "Create models to represent fractions",
+    "version": "1.3.3",
+    "author": "Thibault Milan",
+    "email": "contact@taotesting.com",
+    "response": {
+        "cardinality": "record"
+    },
+    "runtime" : {
+        "hook" : "./runtime/nmcFractionModelInteraction.min.js",
+        "modules": {
+            "nmcFractionModelInteraction/runtime/nmcFractionModelInteraction.min" : [
+                "runtime/nmcFractionModelInteraction.min.js"
+            ]
+        },
+        "src" : [
+            "./runtime/nmcFractionModelInteraction.js",
+            "./runtime/libs/pieChart.js",
+            "./runtime/css/nmcFractionModelInteraction.css"
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./imsPciCreator.js",
+        "libraries" : [
+            "./creator/css/form.css",
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/tpl/circle.tpl",
+            "./creator/tpl/rectangle.tpl",
+            "./creator/tpl/responseCondition.tpl",
+            "./creator/tpl/answerForm.tpl",
+            "./creator/tpl/excludedValueRow.tpl",
+            "./creator/widget/states/Custom.js",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/Deleting.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/Widget.js"
+        ]
+    }
+}

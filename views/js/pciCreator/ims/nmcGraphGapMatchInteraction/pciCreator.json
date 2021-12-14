@@ -1,0 +1,64 @@
+{
+    "typeIdentifier": "nmcGraphGapMatchInteraction",
+    "label": "NMC Graphic Gap Match Interaction",
+    "short": "NMC Graphic Gap Match",
+    "description": "Drag images to fill in gaps on an image",
+    "version": "1.3.1",
+    "author": "Andrey Sirotkin",
+    "email": "andrey.sirotkin@taotesting.com",
+    "response":  {
+        "baseType" : "directedPair",
+        "cardinality" : "multiple"
+    },
+    "runtime" : {
+        "hook" : "./runtime/nmcGraphGapMatchInteraction.min.js",
+        "modules": {
+            "nmcGraphGapMatchInteraction/runtime/nmcGraphGapMatchInteraction.min" : [
+                "runtime/nmcGraphGapMatchInteraction.min.js"
+            ]
+        },
+        "src" : [
+            "./runtime/js/nmcGraphGapMatchInteraction.js",
+            "./runtime/js/renderer.js",
+            "./runtime/js/Graphic.js"
+        ],
+        "stylesheets" : [
+            "./runtime/css/nmcGraphGapMatchInteraction.css"
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.png",
+        "hook": "./pciCreator.js",
+        "libraries" : [
+            "./pciCreator.js",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/Custom.js",
+            "./creator/widget/states/CustomMapChoiceSumToGap.js",
+            "./creator/widget/states/CustomMap.js",
+            "./creator/widget/states/CustomCorrect.js",
+            "./creator/widget/states/Deleting.js",
+            "./creator/widget/states/Answer.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/Widget.js",
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/tpl/associableHotspot.tpl",
+            "./creator/tpl/gapImgForm.tpl",
+            "./creator/tpl/gapImg.tpl",
+            "./creator/tpl/mapTemplate.tpl",
+            "./creator/tpl/mapTargetValueScore.tpl",
+            "./creator/tpl/responseProps.tpl",
+            "./creator/tpl/mapPartialScoreRow.tpl",
+            "./creator/tpl/partialScoreContainer.tpl",
+            "./creator/css/authoring.css",
+            "./creator/tpl/mappedValueInput.tpl",
+            "./creator/tpl/mappedValueInputInSvg.tpl",
+            "./creator/tpl/accociableHotspotRp.tpl",
+            "./creator/tpl/selectResponseTypePanel.tpl",
+            "./creator/tpl/rpTemplate.tpl",
+            "./creator/tpl/mapTargetIntervalsToScore.tpl",
+            "./creator/helpers/response.js",
+            "./creator/tpl/exactMatchFormPanel.tpl"
+        ]
+    }
+}

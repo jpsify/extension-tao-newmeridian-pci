@@ -1,0 +1,1 @@
+<div class="math-entry-tool gap-btn">⬚</div>

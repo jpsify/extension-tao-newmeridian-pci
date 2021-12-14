@@ -1,0 +1,87 @@
+/**
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; under version 2
+ * of the License (non-upgradable).
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+ *
+ * Copyright (c) 2020 (original work) Open Assessment Technologies SA;
+ */
+
+.nmcTextHightLightInteraction {
+
+   $hover-color: #e9e7e8;
+   $choice-blue: #2873ba;
+   $checked-border-blue: #153758;
+   $background-white: white;
+
+   .text-hl-choice {
+      border: 1px solid $choice-blue;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 0 2px;
+      margin: 0 2px;
+      color: $choice-blue;
+
+      &:focus {
+         outline: none;
+      }
+      &:hover {
+         background-color: $hover-color;
+         box-shadow: inset 0 0 0px 0.5px $choice-blue;
+      }
+      &[data-checked="true"],
+      &[data-correct="true"] {
+         border: 1px solid $checked-border-blue;
+         box-shadow: inset 0 0 1px 0.5px $checked-border-blue;
+         background-color: $choice-blue;
+         color: $background-white;
+      }
+      .score {
+         min-width: 0;
+         height: 1.4em;
+      }
+   }
+
+   .qti-flow-container {
+      line-height: 1.6;
+      word-break: break-word;
+      display: flex;
+
+      .editor-text{
+         order:2;
+         min-width: 50%;
+         flex-grow: 1;
+      }
+      .shared-stimulus-container{
+         order: 1;
+         flex-grow: 1;
+         min-width: 50%;
+      }
+      .shared-stimulus-container:empty{
+         min-width: 0;
+         max-width: 0;
+      }
+      include{
+         display: none;
+      }
+   }
+
+   .br {
+      display: block;
+      width: 0;
+      height: 0;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+   }
+}

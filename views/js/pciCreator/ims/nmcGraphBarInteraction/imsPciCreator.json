@@ -1,0 +1,43 @@
+{
+    "model": "IMSPCI",
+    "typeIdentifier": "nmcGraphBarInteraction",
+    "label": "NMC Bar Graph Interaction",
+    "short": "NMC Bar Graph",
+    "description": "Complete a bar graph",
+    "version": "1.3.2",
+    "author": "Arcadia",
+    "email": "arcadia@arcadia.spb.ru",
+    "response": {
+        "baseType": "float",
+        "cardinality": "ordered"
+    },
+    "runtime" : {
+        "hook" : "runtime/nmcGraphBarInteraction.min.js",
+        "stylesheets" : [
+            "./runtime/css/nmcGraphBarInteraction.css"
+        ],
+        "modules" : {
+            "nmcGraphBarInteraction/runtime/nmcGraphBarInteraction.min" : [
+                "runtime/nmcGraphBarInteraction.min.js"
+            ]
+        },
+        "src": [
+            "./runtime/nmcGraphBarInteraction.js",
+            "./runtime/css/nmcGraphBarInteraction.css"
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./imsPciCreator.js",
+        "libraries" : [
+            "./creator/css/form.css",
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/tpl/category.tpl",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/Correct.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/Widget.js"
+        ]
+    }
+}

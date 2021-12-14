@@ -1,0 +1,41 @@
+{
+    "model": "IMSPCI",
+    "typeIdentifier": "nmcGraphFunctionInteraction",
+    "label": "NMC Function Graph Interaction",
+    "short": "NMC Function Graph",
+    "description": "Graph linear, absolute value, quadratic, exponential, logarithmic, and trigonometric functions",
+    "version": "1.3.2",
+    "author": "Sam Sipasseuth",
+    "email": "sam@taotesting.com",
+    "response": {
+        "cardinality": "record"
+    },
+    "runtime" : {
+        "hook" : "runtime/nmcGraphFunctionInteraction.min.js",
+        "modules" : {
+            "nmcGraphFunctionInteraction/runtime/nmcGraphFunctionInteraction.min" : [
+                "runtime/nmcGraphFunctionInteraction.min.js"
+            ]
+        },
+        "src": [
+            "./runtime/nmcGraphFunctionInteraction.js",
+            "./runtime/css/nmcGraphFunctionInteraction.css"
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./imsPciCreator.js",
+        "libraries" : [
+            "./creator/css/form.css",
+            "./creator/tpl/answerForm.tpl",
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/tpl/responseCondition.tpl",
+            "./creator/widget/states/Answer.js",
+            "./creator/widget/states/Custom.js",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/Widget.js"
+        ]
+    }
+}

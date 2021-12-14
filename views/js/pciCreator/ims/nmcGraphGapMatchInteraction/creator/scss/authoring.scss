@@ -1,0 +1,140 @@
+$border-gray: #f5f4f2;
+.nmc-graph-gap-match-interaction{
+
+    .custom-score-table{
+        width: 100%;
+        text-align: left;
+    }
+    .custom-score-separator{
+        margin: 10px 0;
+    }
+    input.custom-score-input,
+    input.custom-target-input{
+        &[type="number"]{
+            min-width: 50px;
+            width: 50px;
+        }
+    }
+    .new-partial-score,
+    .custom-score-table,
+    .custom-score-header{
+        margin: 10px 0;
+    }
+
+    .custom-score-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 15px 5px 5px;
+        border: 6px solid $border-gray;
+        padding: 10px;
+
+        .custom-score-input {
+            min-width: 0;
+            width: 40px;
+            margin-left: 10px;
+            -moz-appearance: textfield;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+    }
+    input[type="number"].score-svg{
+        height: 20px;
+        font-size: 13px;
+        width: 30px;
+        min-width: 0;
+        max-width: 100%;
+        padding: 3px;
+    }
+    .score{
+        min-width: 0;
+        max-width: 100%;
+        display: block;
+        width: 30px;
+    }
+    .custom-score-input,
+    .custom-target-input,
+    input.score,
+    input.score-svg{
+        &[type="number"] {
+
+            min-width: 0;
+            width: 40px;
+            margin-left: 10px;
+            -moz-appearance: textfield;
+    
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+    }
+    .mapped-value{
+        div{
+            text-align: left;
+        }
+        overflow: visible;
+    }
+    
+
+    .image-sidebar {
+        li[data-type=circle],
+        li[data-type=ellipse],
+        li[data-type=path] {
+            display: none;
+        }
+
+    }
+}
+
+.nmc-graph-gap-match-interaction ~ .custom-score-container{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 15px 5px 5px;
+    border: 6px solid $border-gray;
+    padding: 10px;
+
+    .custom-score-input[type="number"]{
+        min-width: 0;
+        width: 40px;
+        margin-left: 10px;
+        -moz-appearance: textfield;
+    
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+
+    .custom-score-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .custom-score-matches {
+        font-style: italic;
+    }
+}
+.shape-position {
+    margin: 0;
+    label {
+        width: 100%;
+        .tooltipstered {
+            width: 6px;
+            margin-left: 12px;            
+        }
+        .incrementer-ctrl-wrapper {
+            float: right;
+            /*important need to override another important*/
+            input {
+                width: 60px!important;
+            }
+        }
+    }
+}

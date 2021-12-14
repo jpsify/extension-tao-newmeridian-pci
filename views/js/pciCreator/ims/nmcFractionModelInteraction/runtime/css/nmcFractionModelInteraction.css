@@ -1,0 +1,13 @@
+/*add some style, need to scope (using the typeIdentifier as class prefix) every style declaration to prevent collision */
+
+.nmcFractionModelInteraction {width:100%;}
+
+.nmcFractionModelInteraction .likert-label {min-width:90px; color: #444;}
+.nmcFractionModelInteraction .likert-label-min {text-align: right;}
+.nmcFractionModelInteraction .likert-label-max {text-align: left;}
+
+.nmcFractionModelInteraction .shape-title {margin-top: 10px; margin-right : auto; margin-left : auto; width : 50%; text-align : center;}
+.nmcFractionModelInteraction .shape-panel {padding: 10px 10px 20px; background : #EFEFEF;}
+.nmcFractionModelInteraction .shape-container {margin:auto;}
+.nmcFractionModelInteraction .shape-controls {text-align: center;}
+.nmcFractionModelInteraction .shape-controls button {margin: 0 5px; padding: 0 20px;}

@@ -1,0 +1,40 @@
+{
+    "model": "IMSPCI",
+    "typeIdentifier": "nmcGraphZoomNumberLineInteraction",
+    "label": "NMC Zoom Number Line Interaction",
+    "short": "NMC Zoom Number Line",
+    "description": "Plot points on a zoomable number line",
+    "version": "1.3.2",
+    "author": "Sam Sipasseuth",
+    "email": "sam@taotesting.com",
+    "response": {
+        "baseType": "float",
+        "cardinality": "single"
+    },
+    "runtime" : {
+        "hook" : "./runtime/nmcGraphZoomNumberLineInteraction.min.js",
+        "modules": {
+            "nmcGraphZoomNumberLineInteraction/runtime/nmcGraphZoomNumberLineInteraction.min" : [
+                "runtime/nmcGraphZoomNumberLineInteraction.min.js"
+            ]
+        },
+        "src" : [
+            "./runtime/nmcGraphZoomNumberLineInteraction.js",
+            "./runtime/libs/axisZoom.js",
+            "./runtime/css/nmcGraphZoomNumberLineInteraction.css"
+
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./imsPciCreator.js",
+        "libraries" : [
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/Correct.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/Widget.js"
+        ]
+    }
+}

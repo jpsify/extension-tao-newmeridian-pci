@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+	<structure id="nmcPci_main" name="NMC Pci extension" level="15" group="main">
+		<description />
+		<sections>
+			<section id="nmcPci_main" name="NMC Pci extension" url="/nmcPci/NmcPci/index" />
+			<section id="nmcPci_other" name="Template" url="/nmcPci/NmcPci/templateExample" />
+		</sections>
+	</structure>
+</structures>

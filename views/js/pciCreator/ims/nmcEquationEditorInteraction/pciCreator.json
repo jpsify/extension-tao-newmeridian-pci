@@ -1,0 +1,49 @@
+{
+    "typeIdentifier": "nmcEquationEditorInteraction",
+    "label": "NMC Equation Editor Interaction",
+    "short": "NMC Equation Editor",
+    "description": "Enter numbers, mathematics symbols, and text",
+    "version": "1.4.12",
+    "author": "Andrey Sirotkin",
+    "email": "andrey.sirotkin@taotesting.com",
+    "tags": [
+        "equation"
+    ],
+    "response": {
+        "cardinality": "record"
+    },
+    "runtime" : {
+        "hook" : "./runtime/nmcEquationEditorInteraction.min.js",
+        "libraries" : [],
+        "stylesheets" : [
+            "./runtime/css/nmcEquationEditorInteraction.css"
+        ],
+        "mediaFiles" : [
+            "./runtime/css/font/mathex.ttf"
+        ],
+        "src" : [
+            "./runtime/nmcEquationEditorInteraction.js",
+            "./runtime/utils/mathMlUtils.js"
+        ]
+    },
+    "creator" : {
+        "icon": "./creator/img/icon.svg",
+        "hook": "./pciCreator.min.js",
+        "libraries" : [
+            "./creator/css/form.css"
+        ],
+        "src" : [
+            "./pciCreator.js",
+            "./creator/tpl/markup.tpl",
+            "./creator/tpl/propertiesForm.tpl",
+            "./creator/tpl/answerForm.tpl",
+            "./creator/tpl/addGap.tpl",
+            "./creator/widget/Widget.js",
+            "./creator/widget/states/Question.js",
+            "./creator/widget/states/Custom.js",
+            "./creator/widget/states/Answer.js",
+            "./creator/widget/states/states.js",
+            "./creator/widget/expressionParser/parser.js"
+        ]
+    }
+}

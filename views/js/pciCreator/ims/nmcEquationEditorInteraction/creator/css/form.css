@@ -1,0 +1,19 @@
+.sidebar-popup.graph-popup { padding: 0 }
+.sidebar-popup.graph-popup h3 { margin: 0 }
+.sidebar-popup-content {background-color: white;}
+.tool-configuration .tool-disabled {opacity: 0.2;}
+/*
+  container popup width = 360px
+  .math-entry-tool width = 48px
+  -> 6 buttons in a row
+*/
+.nmcEquationEditorInteraction.sidebar-popup-content .item-editor-sidebar .math-entry-tool:nth-child(6n)[data-tooltip]:after{
+  transform: translate(0, -100%);
+  left: unset;
+  right: 0;
+}
+.nmcEquationEditorInteraction.sidebar-popup-content .item-editor-sidebar .math-entry-tool:nth-child(6n+1)[data-tooltip]:after{
+  transform: translate(0, -100%);
+  left: 0;
+  right: unset;
+}

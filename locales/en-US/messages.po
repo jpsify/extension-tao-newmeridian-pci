@@ -1,0 +1,510 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TAO 3.4.0-sprint152\n"
+"PO-Revision-Date: 2021-04-09T09:08:18\n"
+"Last-Translator: TAO Translation Team <translation@tao.lu>\n"
+"MIME-Version: 1.0\n"
+"Language: en-US\n"
+"sourceLanguage: en-US\n"
+"targetLanguage: en-US\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid " Display lines"
+msgstr ""
+
+msgid " Display points"
+msgstr ""
+
+msgid " Points Glow"
+msgstr ""
+
+msgid " points Glow"
+msgstr ""
+
+msgid "Add a static point"
+msgstr ""
+
+msgid "Add category"
+msgstr ""
+
+msgid "Add choice"
+msgstr ""
+
+msgid "Allow line break"
+msgstr ""
+
+msgid "Allow points on border"
+msgstr ""
+
+msgid "Allow solution set"
+msgstr ""
+
+msgid "Allowed number of matches"
+msgstr ""
+
+msgid "Alternate text"
+msgstr ""
+
+msgid "Alternate text for background image"
+msgstr ""
+
+msgid "Alternate text for choice"
+msgstr ""
+
+msgid "Alternate text for gap"
+msgstr ""
+
+msgid "Associable Hotspot"
+msgstr ""
+
+msgid "authorize white space"
+msgstr ""
+
+msgid "Autoclose shape"
+msgstr ""
+
+msgid "Available Graphs"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "By increment of"
+msgstr ""
+
+msgid "Cannot create gap from this selection. Please check that you do not have partially selected elements."
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Category Color"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Choice Image"
+msgstr ""
+
+msgid "Choices position"
+msgstr ""
+
+msgid "Circle"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Default Partition"
+msgstr ""
+
+msgid "Define which graphs are availabe for the test taker to use."
+msgstr ""
+
+msgid "Delete this category"
+msgstr ""
+
+msgid "Delete this static point"
+msgstr ""
+
+msgid "Display Title"
+msgstr ""
+
+msgid "Edit options"
+msgstr ""
+
+msgid "End Point"
+msgstr ""
+
+msgid "Equation"
+msgstr ""
+
+msgid "Exact Match"
+msgstr ""
+
+msgid "Excluded Values"
+msgstr ""
+
+msgid "Expression"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Fraction type"
+msgstr ""
+
+msgid "Fractional digits"
+msgstr ""
+
+msgid "From"
+msgstr ""
+
+msgid "Gap Image"
+msgstr ""
+
+msgid "Grade"
+msgstr ""
+
+msgid "Grade 3-5"
+msgstr ""
+
+msgid "Grade 6-8"
+msgstr ""
+
+msgid "Grade 9-12"
+msgstr ""
+
+msgid "Graph Appearance"
+msgstr ""
+
+msgid "Graph Color"
+msgstr ""
+
+msgid "Graph properties"
+msgstr ""
+
+msgid "Group ID"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "height"
+msgstr ""
+
+msgid "Height Description"
+msgstr ""
+
+msgid "Hello World"
+msgstr ""
+
+msgid "Horizontal bar labels"
+msgstr ""
+
+msgid "identifier"
+msgstr ""
+
+msgid "Increment by"
+msgstr ""
+
+msgid "Inner line weight"
+msgstr ""
+
+msgid "Keyboard Behavior"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Label align"
+msgstr ""
+
+msgid "Label Color"
+msgstr ""
+
+msgid "Label font size"
+msgstr ""
+
+msgid "Label font weight"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Line color"
+msgstr ""
+
+msgid "Line name"
+msgstr ""
+
+msgid "Line style"
+msgstr ""
+
+msgid "Line style toggle"
+msgstr ""
+
+msgid "Line thickness"
+msgstr ""
+
+msgid "Max"
+msgstr ""
+
+msgid "Max. number of matches"
+msgstr ""
+
+msgid "Max. Parts"
+msgstr ""
+
+msgid "Maximum number of segments allowed."
+msgstr ""
+
+msgid "Maximum of Points"
+msgstr ""
+
+msgid "Min. Parts"
+msgstr ""
+
+msgid "Mininum number of segments allowed."
+msgstr ""
+
+msgid "Numbers and Math Symbols"
+msgstr ""
+
+msgid "Numbers, Math Symbols, and Text"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Outline"
+msgstr ""
+
+msgid "Outline Thickness"
+msgstr ""
+
+msgid "Outline Thickness Description"
+msgstr ""
+
+msgid "Pie Chart Colors"
+msgstr ""
+
+msgid "Please define the correct values."
+msgstr ""
+
+msgid "Point Color"
+msgstr ""
+
+msgid "Point color"
+msgstr ""
+
+msgid "Point name"
+msgstr ""
+
+msgid "Point radius"
+msgstr ""
+
+msgid "Point Radius"
+msgstr ""
+
+msgid "Point set name"
+msgstr ""
+
+msgid "Polygon color"
+msgstr ""
+
+msgid "Polygon name"
+msgstr ""
+
+msgid "Polygon style"
+msgstr ""
+
+msgid "Polygon style toggle"
+msgstr ""
+
+msgid "Polygon thickness"
+msgstr ""
+
+msgid "Popup Value Title"
+msgstr ""
+
+msgid "Positive/Negative and Fractions"
+msgstr ""
+
+msgid "Radius"
+msgstr ""
+
+msgid "Radius Description"
+msgstr ""
+
+msgid "Rectangle"
+msgstr ""
+
+msgid "Rectangle subtype"
+msgstr ""
+
+msgid "Response identifier"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Rows"
+msgstr ""
+
+msgid "Segment color"
+msgstr ""
+
+msgid "Segment name"
+msgstr ""
+
+msgid "Segment style"
+msgstr ""
+
+msgid "Segment style toggle"
+msgstr ""
+
+msgid "Segment thickness"
+msgstr ""
+
+msgid "Select image"
+msgstr ""
+
+msgid "Selected Partition"
+msgstr ""
+
+msgid "Shape position"
+msgstr ""
+
+msgid "Show Arrows"
+msgstr ""
+
+msgid "Show Bar Ticks"
+msgstr ""
+
+msgid "Show close shape button"
+msgstr ""
+
+msgid "Show Origin"
+msgstr ""
+
+msgid "Show Sub Grid"
+msgstr ""
+
+msgid "Show x-axis scale labels"
+msgstr ""
+
+msgid "Show y-axis scale labels"
+msgstr ""
+
+msgid "Slope value"
+msgstr ""
+
+msgid "Small Mark"
+msgstr ""
+
+msgid "Solution set name"
+msgstr ""
+
+msgid "some text ..."
+msgstr ""
+
+msgid "Start point"
+msgstr ""
+
+msgid "Static"
+msgstr ""
+
+msgid "Static points"
+msgstr ""
+
+msgid "Sub Grid Color"
+msgstr ""
+
+msgid "Sub step (snapping)"
+msgstr ""
+
+msgid "The equation to be match against the student response points."
+msgstr ""
+
+msgid "The expression to evaluate the student response."
+msgstr ""
+
+msgid "The file path to the image."
+msgstr ""
+
+msgid "The group identifier of the gap"
+msgstr ""
+
+msgid "The group identifier of the option"
+msgstr ""
+
+msgid "The identifier of the choice. This identifier must not be used by any other choice or item variable. An identifier is a string of characters that must start with a Letter or an underscore (\"_\") and contain only Letters, underscores, hyphens (\"-\"), period (\".\", a.k.a. full-stop), Digits, CombiningChars and Extenders."
+msgstr ""
+
+msgid "The identifier of the choice. This identifier must not be used by any other response or item variable. An identifier is a string of characters that must start with a Letter or an underscore (\"_\") and contain only Letters, underscores, hyphens (\"-\"), period (\".\", a.k.a. full-stop), Digits, CombiningChars and Extenders."
+msgstr ""
+
+msgid "The left position of the shape relative to the top left corner of the background in pixels. This value may be scaled when the background image size is adapted to it's container"
+msgstr ""
+
+msgid "The maximum number of choices this choice may be associated with."
+msgstr ""
+
+msgid "The minimum number of choices this choice must be associated with to form a valid response."
+msgstr ""
+
+msgid "The shape height in pixels. This value may be scaled when the background image size is adapted to it's container"
+msgstr ""
+
+msgid "The shape width in pixels. This value may be scaled when the background image size is adapted to it's container"
+msgstr ""
+
+msgid "The top position of the shape relative to the top left corner of the background in pixels. This value may be scaled when the background image size is adapted to it's container"
+msgstr ""
+
+msgid "Thickness"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Tool Bar"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Type of Elements"
+msgstr ""
+
+msgid "Use expression with gaps"
+msgstr ""
+
+msgid "Use slope value"
+msgstr ""
+
+msgid "Use slope value instead of plotted points to define a correct response for this graph element"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Wide Bars"
+msgstr ""
+
+msgid "width"
+msgstr ""
+
+msgid "Width"
+msgstr ""
+
+msgid "Width Description"
+msgstr ""
+
+msgid "X"
+msgstr ""
+
+msgid "X axis"
+msgstr ""
+
+msgid "Y"
+msgstr ""
+
+msgid "Y axis"
+msgstr ""
+
+msgid "Zoom Mark"
+msgstr ""
+

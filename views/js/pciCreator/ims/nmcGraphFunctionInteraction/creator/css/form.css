@@ -1,0 +1,21 @@
+#creator-graphFunctionInteraction-available-graphs {padding-top:10px;} 
+
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-range h3 {display:block; padding-bottom: 8px;}
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-range label {display:inline;}
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-range .incrementer-ctrl-wrapper {margin:0 5px; float:right; }
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-range .incrementer-ctrl-wrapper input {width: 52px!important;}
+
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-spinner .incrementer-ctrl-wrapper {float:right; top:-5px;}
+.item-editor-sidebar .tool-group .panel.creator-graphFunctionInteraction-spinner .incrementer-ctrl-wrapper input {width: 52px!important;}
+
+.item-editor-sidebar .tool-group .panel .item-editor-color-picker .color-picker-container {width: 100%}
+.item-editor-sidebar .tool-group .panel .item-editor-color-picker .color-picker-container .sidebar-popup-title {cursor: default;}
+.item-editor-sidebar .tool-group .panel .item-editor-color-picker .color-picker-container .sidebar-popup-title .closer {position: unset; float: right;}
+
+.item-editor-sidebar .graph-edit { display: none; }
+.item-editor-sidebar .graph-edit div { display: flex; justify-content: space-between; align-items: center; }
+.item-editor-sidebar .graph-edit input { min-width: initial; }
+.item-editor-sidebar .graph-edit .icon-result-ok { cursor: pointer; }
+.item-editor-sidebar .graph-edit .icon-result-nok { cursor: pointer; }
+.item-editor-sidebar .graph-label { display: flex; justify-content: space-between; }
+.item-editor-sidebar .graph-label .icon-edit { cursor: pointer; }

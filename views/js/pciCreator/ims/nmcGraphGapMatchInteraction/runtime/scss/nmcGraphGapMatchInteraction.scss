@@ -1,0 +1,79 @@
+.nmc-graph-gap-match-interaction.qti-graphicGapMatchInteraction {
+    display: flex;
+
+    &.gap-position-top,
+    &.gap-position-bottom {
+        flex-direction: column;
+    }
+
+    &.gap-position-left,
+    &.gap-position-right {
+        flex-direction: row;
+
+        ul.source.block-listing {
+            width: auto;
+        }
+
+        
+        .image-container {
+            width: 50%;
+            .main-image-box{
+                max-width: 100%;
+                .svggroup{
+                    max-width: 100%;
+                    svg{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &.gap-position-top,
+    &.gap-position-left {
+        .image-container {
+            order: 2;
+        }
+        .block-listing {
+            order: 1;
+        }
+    }
+
+    &.gap-position-bottom,
+    &.gap-position-right {
+        .image-container {
+            order: 1;
+        }
+        .block-listing {
+            order: 2;
+        }
+    }
+
+    &.gap-position-left .image-sidebar {
+        left: unset;
+        right: -45px;
+    }
+
+    /* need to override another important */
+    &.gap-position-top ul.source>li img ~ span.mini-tlb[data-edit] {
+        top: unset!important;
+    }
+
+    &.gap-position-left ul.source>li img ~ span.mini-tlb[data-edit] {
+        right: -28px;
+    }
+
+    &.gap-position-right ul.source>li img ~ span.mini-tlb[data-edit] {
+        right: unset;
+        left: -28px;
+    }
+
+    .image-container {
+        flex: 1;
+    }
+
+    ul.source > li.qti-gapImg {
+        min-width: unset;
+        min-height: unset;
+    }
+}

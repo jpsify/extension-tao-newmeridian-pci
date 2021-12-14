@@ -1,0 +1,24 @@
+.item-editor-sidebar .tool-group .item-editor-color-picker .color-picker-container {width: 100%}
+.item-editor-sidebar .tool-group .item-editor-color-picker .color-picker-container .sidebar-popup-title {cursor: default;}
+.item-editor-sidebar .tool-group .item-editor-color-picker .color-picker-container .sidebar-popup-title .closer {position: inherit; float: right; text-decoration: none;}
+
+.item-editor-sidebar .tool-group .rectangle .rectangle-subtype-panel {display: flex; flex-direction: column;}
+.item-editor-sidebar .tool-group .rectangle .rectangle-subtypes {display: flex; flex-direction: row;}
+
+.item-editor-sidebar .tool-group .fraction-editor .panel,
+.item-editor-sidebar .tool-group .circle .panel,
+.item-editor-sidebar .tool-group .rectangle .panel {display: flex;  flex-direction: row;}
+
+.item-editor-sidebar .tool-group .fraction-editor .panel .spinner,
+.item-editor-sidebar .tool-group .circle .panel .spinner,
+.item-editor-sidebar .tool-group .rectangle .panel .spinner {display: flex; justify-content: space-between; width: 80%;}
+
+.item-editor-sidebar .tool-group .fraction-editor .icon-help.tooltipstered,
+.item-editor-sidebar .tool-group .circle .panel .icon-help.tooltipstered,
+.item-editor-sidebar .tool-group .rectangle .panel .icon-help.tooltipstered {margin-left: auto;}
+
+
+.exlcluded-values-panel .excluded-value-table { width: 100%; table-layout: fixed; border-spacing: 5px; }
+.exlcluded-values-panel .excluded-value-row td { padding: 0px 2px; }
+.exlcluded-values-panel .excluded-value-row input { min-width: auto !important; width: 100%;  }
+.exlcluded-values-panel .excluded-value-row button { width: 100%; padding: 0px 5px; height: 25px; line-height: 1; }

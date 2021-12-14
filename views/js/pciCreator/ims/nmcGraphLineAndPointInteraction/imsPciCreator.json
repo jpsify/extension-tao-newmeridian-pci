@@ -1,0 +1,61 @@
+{
+  "model": "IMSPCI",
+  "typeIdentifier": "nmcGraphLineAndPointInteraction",
+  "label": "NMC Point, Line & Polygon Graph Interaction",
+  "short": "NMC Point, Line & Polygon Graph",
+  "description": "Graph points, lines, polygons, and solution sets",
+  "version": "1.3.1",
+  "author": "Thibault Milan, Sam Sipasseuth",
+  "email": "contact@taotesting.com",
+  "response": {
+    "cardinality": "record"
+  },
+  "runtime": {
+    "hook": "runtime/nmcGraphLineAndPointInteraction.min.js",
+    "modules": {
+      "nmcGraphLineAndPointInteraction/runtime/nmcGraphLineAndPointInteraction.min": [
+        "runtime/nmcGraphLineAndPointInteraction.min.js"
+      ]
+    },
+    "src": [
+      "./runtime/nmcGraphLineAndPointInteraction.js",
+      "./runtime/wrappers/setOfPoints.js",
+      "./runtime/wrappers/points.js",
+      "./runtime/wrappers/lines.js",
+      "./runtime/wrappers/segments.js",
+      "./runtime/wrappers/polygons.js",
+      "./runtime/wrappers/solutionSet.js",
+      "./runtime/css/nmcGraphLineAndPointInteraction.css"
+    ]
+  },
+  "creator": {
+    "icon": "./creator/img/icon.svg",
+    "hook": "./imsPciCreator.js",
+    "libraries": [
+      "./creator/css/form.css",
+      "./creator/libs/randomColor/LICENSE.md",
+      "./creator/libs/randomColor/randomColor.js",
+      "./creator/tpl/lineForm.tpl",
+      "./creator/tpl/markup.tpl",
+      "./creator/tpl/pointForm.tpl",
+      "./creator/tpl/pointSetForm.tpl",
+      "./creator/tpl/propertiesForm.tpl",
+      "./creator/tpl/segmentForm.tpl",
+      "./creator/tpl/polygonForm.tpl",
+      "./creator/tpl/solutionSetForm.tpl",
+      "./creator/tpl/staticPoint.tpl",
+      "./creator/tpl/responseCondition/default.tpl",
+      "./creator/tpl/responseCondition/checkElementByPoints.tpl",
+      "./creator/tpl/responseCondition/checkElementByParameter.tpl",
+      "./creator/tpl/answer/slopeForm.tpl",
+      "./creator/widget/helpers/responseCondition.js",
+      "./creator/widget/helpers/responseConditionBuilder.js",
+      "./creator/widget/states/Question.js",
+      "./creator/widget/states/Answer.js",
+      "./creator/widget/states/Custom.js",
+      "./creator/widget/states/Deleting.js",
+      "./creator/widget/states/states.js",
+      "./creator/widget/Widget.js"
+    ]
+  }
+}

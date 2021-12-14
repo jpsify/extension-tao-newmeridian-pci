@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   version="1.1"
+   width="32"
+   height="32"
+   id="svg11300">
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:current-layer="svg11300"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="15"
+     inkscape:cx="-5.4092409"
+     inkscape:zoom="18.9375"
+     showgrid="false"
+     id="namedview3089"
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs3">
+    <radialGradient
+       gradientTransform="matrix(-2.7744,0,0,1.9697,112.76,-872.89)"
+       r="117.14"
+       cy="486.64999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5060"
+       cx="605.71002"
+       id="radialGradient6719" />
+    <linearGradient
+       id="linearGradient5060">
+      <stop
+         offset="0"
+         id="stop5062" />
+      <stop
+         offset="1"
+         stop-opacity="0"
+         id="stop5064" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(2.7744,0,0,1.9697,-1891.6,-872.89)"
+       r="117.14"
+       cy="486.64999"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient5060"
+       cx="605.71002"
+       id="radialGradient6717" />
+    <linearGradient
+       x1="302.85999"
+       x2="302.85999"
+       gradientTransform="matrix(2.7744,0,0,1.9697,-1892.2,-872.89)"
+       y1="366.64999"
+       gradientUnits="userSpaceOnUse"
+       y2="609.51001"
+       id="linearGradient6715">
+      <stop
+         offset="0"
+         stop-opacity="0"
+         id="stop5050" />
+      <stop
+         offset=".5"
+         id="stop5056" />
+      <stop
+         offset="1"
+         stop-opacity="0"
+         id="stop5052" />
+    </linearGradient>
+    <radialGradient
+       gradientTransform="matrix(2.1282,0,0,2.1283,-28.519,-40.418)"
+       r="20.531"
+       cy="35.596001"
+       gradientUnits="userSpaceOnUse"
+       cx="25.458"
+       id="radialGradient2939">
+      <stop
+         offset="0"
+         stop-color="#9cbcde"
+         id="stop2935" />
+      <stop
+         offset="1"
+         stop-color="#204a87"
+         id="stop2937" />
+    </radialGradient>
+    <radialGradient
+       r="20.531"
+       cy="35.596001"
+       cx="25.458"
+       gradientTransform="matrix(2.1282,0,0,2.1283,-28.519,-40.418)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient3103"
+       xlink:href="#radialGradient2939"
+       inkscape:collect="always" />
+  </defs>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:source>http://jimmac.musichall.cz</dc:source>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
+        <dc:title />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>accessibility</rdf:li>
+            <rdf:li>assist</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Attribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-9,-7)"
+     id="g3877">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       d="M 12,10 V 36 H 38"
+       id="path9988" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       d="m 12,7 -3,6 h 6 L 12,7"
+       id="path9992" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd"
+       inkscape:connector-curvature="0"
+       d="m 41,36 -6,-3 v 6 l 6,-3"
+       id="path9994" />
+    <g
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.14230999;stroke-opacity:1"
+       transform="matrix(3.5134,0,0,3.5134,-53.717,-11.668)"
+       id="g10167">
+      <g
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.07540011;stroke-miterlimit:10.43299961;stroke-opacity:1"
+         stroke-miterlimit="10.433"
+         transform="matrix(0.068571,0,0,-0.068571,-12,36)"
+         xml:space="preserve"
+         id="g10169" />
+    </g>
+  </g>
+  <rect
+     y="15.672355"
+     x="6.4422441"
+     height="12.367249"
+     width="3.5379539"
+     id="rect893"
+     style="fill:#000000;fill-opacity:1;stroke-width:0.762334" />
+  <rect
+     style="fill:#000000;fill-opacity:1"
+     id="rect893-7"
+     width="3.5379539"
+     height="21.280527"
+     x="12.805282"
+     y="6.8382845" />
+  <rect
+     style="fill:#000000;fill-opacity:1;stroke-width:0.877058"
+     id="rect893-1"
+     width="3.5379539"
+     height="16.369637"
+     x="19.775578"
+     y="11.749175" />
+</svg>

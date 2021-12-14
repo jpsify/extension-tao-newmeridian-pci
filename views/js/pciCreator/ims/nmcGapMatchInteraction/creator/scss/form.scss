@@ -1,0 +1,502 @@
+.nmcGapMatchInteraction {
+    $border-gray: #f5f4f2;
+    $background-white: white;
+    $choice-blue: #2873ba;
+    $gap-black: black;
+    $hover-color: #e9e7e8;
+
+    input.incrementer {
+        box-sizing: content-box;
+    }
+    .spinner {
+        display: inline-block;
+    }
+    .custom-score-container {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 15px 5px 5px;
+        border: 6px solid $border-gray;
+        padding: 10px;
+
+        .custom-score-input {
+            min-width: 0;
+            width: 40px;
+            margin-left: 10px;
+            -moz-appearance: textfield;
+
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+        }
+    }
+    .custom-score-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .custom-score-matches {
+        font-style: italic;
+    }
+    .response-props-ui {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .qti-flow-container{
+        .container-editor{
+            overflow-y: auto;
+            padding-bottom: 10px;
+        }
+    }
+    .gap-choice,
+    .empty-gap {
+        .delete-btn {
+            position: absolute;
+            display:block;
+            top: 0;
+            right: 0;
+            transform: translateY(-100%);
+            background: $background-white;
+            padding: 3px 5px;
+            width: 25px;
+            height: 25px;
+            z-index: 1000;
+            border: 1px solid $choice-blue;
+            color: $gap-black;
+
+            &:hover {
+                background-color: $hover-color;
+                box-shadow: inset 0 0 0px 0.5px $choice-blue;
+                border-color: $choice-blue;
+            }
+        }
+
+        &[data-selected] {
+            box-shadow: 1px 1px 3px 1px $choice-blue;
+        }
+    }
+
+    .empty-gap {
+        .delete-btn {
+            transform: none;
+            border: 1px solid $choice-blue;
+            color: $gap-black;
+            height: 100%;
+            padding: 0px 3px;
+            width: auto;
+        }
+    }
+    .edit-math math{
+        opacity: 0.7;
+
+        &:hover{
+            border: 1px solid $choice-blue;
+        }
+    }
+    .MathJax{ 
+        .empty-gap{
+            min-height: 0;
+            min-width: 0;
+            border-width: 0;
+            background-color: rgba(70,100,200,0.1);
+
+            .delete-btn {
+                display: none;
+            }
+        }
+    }
+    
+    .choice-position-container .qti-flow-container .mini-tlb {
+        z-index: 999;
+        top: 6px;
+    }
+
+    
+    .math-editor {
+    
+        .math-tools {
+    
+            margin-left: 5px;
+    
+            .math-entry-tool {
+                background-color: #aaaaaa;
+                background-image: linear-gradient(to bottom, #cccccc, #aaaaaa);
+            }
+    
+            .gap-btn {
+                font-family: MathJax_Main-italic;
+                font-size  : 22px;
+                padding    : 0;
+            }
+        }
+    
+        .math-entry-tool {
+            vertical-align  : middle;
+            display         : inline-block;
+            padding         : 8px 0;
+            background-color: #e6e6e6;
+            cursor          : pointer;
+            line-height     : normal;
+            text-align      : center;
+            width           : 48px;
+            height          : 36px;
+            margin          : 2px;
+            border-radius   : 4px;
+            border          : 1px solid rgba(0, 0, 0, 0.15);
+            background-image: linear-gradient(to bottom, #f5f5f5, #e6e6e6);
+    
+            &,
+            &>span,
+            i:before {
+                font-family: mathex;
+                font-size  : 20px;
+                color      : #333333;
+                line-height: normal;
+            }
+    
+            .sup {
+                font-size     : 60%;
+                vertical-align: 0.5em;
+            }
+    
+            .sub {
+                font-size     : 60%;
+                vertical-align: -0.25em;
+            }
+    
+            .icon-sqrt:before {
+                content: "\e002";
+            }
+    
+            .icon-frac:before {
+                content: "\e005";
+            }
+    
+            .icon-mxf:before {
+                content: "\e006";
+            }
+    
+            .icon-root:before {
+                content: "\e001";
+            }
+    
+            .icon-rt-3:before {
+                content: "\e003";
+            }
+    
+            .icon-clear:before {
+                content: "\e612";
+            }
+    
+            .icon-eq-undo:before {
+                content: "\e610";
+            }
+    
+            .icon-eq-redo:before {
+                content: "\e611";
+            }
+    
+        }
+    
+        .mje-placeholder>span {
+            border: 1px dotted black;
+            color : transparent;
+        }
+    
+        .kb-numbers-math-and-text .mje-placeholder.math-placeholder>span {
+            border: none;
+        }
+    
+        .math-entry {
+            display  : flex;
+            max-width: 100%;
+            flex-wrap: wrap;
+    
+            .editor-container {
+                margin       : 5px 5px 1px 5px;
+                overflow     : auto;
+                border       : 1px solid #ccc;
+                border-radius: 4px;
+                padding      : 8px;
+                height       : 100%;
+            }
+    
+            &.kb-numbers-and-fraction,
+            &.kb-numbers-and-math {
+    
+                .toolbar-container,
+                .math-tools {
+                    padding         : 4px;
+                    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+                    border-color    : #CCCCCC #CCCCCC #B3B3B3;
+                    border-style    : solid;
+                    border-width    : 1px;
+                }
+            }
+    
+            &.kb-numbers-and-math .toolbar-container {
+                &.show-less {
+                    .item-editor-sidebar {
+                        height  : 80px;
+                        overflow: hidden;
+                    }
+    
+                    .more-less-button .icon-caret::before {
+                        content: "\e601";
+                    }
+                }
+    
+                .more-less-button .icon-caret::before {
+                    content: "\e600";
+                }
+            }
+    
+            .more-less-button {
+                display: none;
+            }
+    
+            &.kb-numbers-and-math.grade-grade_6_8 .more-less-button,
+            &.kb-numbers-and-math.grade-grade_9_12 .more-less-button {
+                display          : block;
+                height           : 28px;
+                width            : 38px;
+                margin-top       : 6px;
+                margin-left      : auto;
+                margin-right     : auto;
+                margin-bottom    : 8px;
+                color            : #ffffff;
+                background-image : linear-gradient(to bottom, #0088cc, #0044cc);
+                background-repeat: repeat-x;
+    
+                .icon-caret {
+                    &::before {
+                        font-size     : 20px;
+                        font-family   : mathex;
+                        font-style    : normal;
+                        font-weight   : normal;
+                        font-variant  : normal;
+                        text-transform: none;
+                        line-height   : 1;
+                    }
+                }
+            }
+    
+            &.kb-numbers-and-fraction .editor-container,
+            &.kb-numbers-and-math .editor-container {
+                order : 1;
+                flex  : 100%;
+                height: 50%;
+            }
+    
+            &.kb-numbers-and-fraction .math-tools,
+            &.kb-numbers-and-math .math-tools {
+                order: 2;
+            }
+    
+            &.kb-numbers-and-math .math-tools {
+                width : 60px;
+                height: 132px;
+                &.with-gap {
+                    height: 170px;
+                }
+            }
+    
+            &.kb-numbers-and-fraction .toolbar-container,
+            &.kb-numbers-and-math .toolbar-container {
+                order : 3;
+            }
+    
+            &.kb-numbers-and-math .toolbar-container,
+            &.kb-numbers-and-fraction .toolbar-container {
+                margin-left: -1px;
+            }
+    
+            &.kb-numbers-and-math .toolbar-container {
+                width   : 322px;
+                overflow: hidden;
+                height: fit-content;            
+            }
+    
+            &.kb-numbers-math-and-text .math-tools {
+                order: 1;
+                flex : 100%;
+            }
+    
+            &.kb-numbers-math-and-text .editor-container {
+                order : 2;
+                flex  : auto;
+                height: 80%;
+            }
+    
+            &.kb-numbers-math-and-text .toolbar-container {
+                order : 3;
+                width : 240px;
+                height: 80%;
+            }
+    
+        }
+    
+    
+        .item-editor-sidebar .tool-group {
+            border-radius: 8px;
+            background   : none;
+            border       : 1px solid #DDDDDD;
+            margin-bottom: 2px;
+    
+            h2 {
+                font-size     : 14px;
+                font-size     : 1.4rem;
+                border-top    : 1px white solid;
+                font-weight   : normal;
+                line-height   : 30px;
+                padding       : 0 6px;
+                letter-spacing: .06rem;
+                clear         : left;
+                margin        : 0 0 0 0;
+                position      : relative;
+                background    : #dddfe2;
+                cursor        : pointer;
+    
+                span {
+                    position: absolute;
+                    top     : 9px;
+                    right   : 9px;
+                }
+    
+                .icon-up,
+                &.closed .icon-down {
+                    display: block;
+                }
+    
+                &.closed .icon-up,
+                .icon-down {
+                    display: none;
+                }
+            }
+    
+            ._accordion {
+                border    : none;
+                background: none;
+                color     : #005A9E;
+            }
+    
+        }
+    
+        .mje-editor {
+            font-size    : 32px;
+            height       : 100%;
+            overflow-x   : auto;
+            overflow-y   : hidden;
+            width        : 100%;
+            padding-right: 4px;
+    
+            span {
+                font-size: 32px;
+            }
+        }
+    
+        .mje-wrapper {
+            height: 100%;
+        }
+    
+        .mje-input {
+            opacity: 0;
+            height : 0;
+            width  : 0;
+            padding: 0;
+            border : none;
+        }
+    
+        .focused {
+    
+            span.editor-cursor:not(.mrow):not(.math):not(.end-of-line):before,
+            span.editor-cursor.end-of-line:after,
+            .editor-cursor.mrow:after,
+            .math.editor-cursor>span>span>.mrow>.mje-placeholder:before {
+                content                  : '';
+                animation-name           : blinker;
+                animation-iteration-count: infinite;
+                animation-timing-function: cubic-bezier(1, 0, 0, 1);
+                animation-duration       : 1s;
+    
+                width     : 1px;
+                height    : 1em;
+                background: black;
+                top       : 0;
+                bottom    : 0;
+                display   : inline-block;
+                transform : translateY(0.2em);
+            }
+    
+            .editor-cursor.math>span>span>.mrow {
+    
+                &>span.mn:last-child:after,
+                &>span.mo:last-child:after,
+                &>.mfrac:last-child:after,
+                &>.mrow:last-child:after,
+                &>.mspace:last-child:after,
+                &>.mroot:last-child:after {
+                    content: '';
+    
+                    animation-name           : blinker;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: cubic-bezier(1, 0, 0, 1);
+                    animation-duration       : 1s;
+    
+                    width     : 1px;
+                    height    : 1em;
+                    background: black;
+                    top       : 0;
+                    bottom    : 0;
+                    display   : inline-block;
+                    transform : translateY(0.2em);
+                }
+            }
+    
+            @keyframes blinker {
+                from {
+                    opacity: 1.0;
+                }
+    
+                to {
+                    opacity: 0.0;
+                }
+            }
+        }
+    }
+    .math-editor{
+        margin-top: 50px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        background: white;
+        transform: translate(-50%, -50%);
+        border: 4px solid gray;
+        z-index: 9999999999999;
+        padding: 10px;
+        max-width: 60vw;
+        max-height: calc(90vh - 200px);
+        overflow: auto;
+
+        .close-btn{
+            float: right;
+        }
+    }
+}
+
+@font-face {
+    font-family: mathex;
+    src        : url(font/mathex.ttf);
+}
+.cke_dialog_background_cover{
+    z-index: 9999 !important;
+    // setting element's z-index to lower value so it can't cover dialog in ckeditor
+    //
+    // ckeditor modal dialog bug:
+    // when dialog opens on top of other dialog, z-index of parent became lower,
+    // and this element blocks bottom dialog (fine),
+    // but when top dialog exited, parent z-index not returning to initial value,
+    // and bottom dialog remains blocked, so user unable to exit (not fine)
+}

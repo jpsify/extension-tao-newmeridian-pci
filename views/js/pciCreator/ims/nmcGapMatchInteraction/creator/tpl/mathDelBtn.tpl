@@ -1,0 +1,1 @@
+<mtext class="delete-btn"> ✖ </mtext>

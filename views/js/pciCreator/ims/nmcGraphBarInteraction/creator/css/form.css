@@ -1,0 +1,6 @@
+.item-editor-sidebar .tool-group .panel .category-delete.icon-bin {float: right;}
+.item-editor-sidebar .tool-group .panel .color-picker-container {width: 100%}
+.item-editor-sidebar .tool-group .panel .color-picker-container .sidebar-popup-title {cursor: default;}
+.item-editor-sidebar .tool-group .panel .color-picker-container .sidebar-popup-title .closer {position: unset; float: right;}
+.item-editor-sidebar .category-props .incrementer-ctrl-wrapper,
+.item-editor-sidebar .creator-graphFunctionInteraction-spinner .incrementer-ctrl-wrapper {float: right;}

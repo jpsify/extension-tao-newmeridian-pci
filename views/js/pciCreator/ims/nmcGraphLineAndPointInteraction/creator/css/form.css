@@ -1,0 +1,28 @@
+.item-editor-sidebar .tool-group .panel.creator-pointAndLineFunctionInteraction h3 {display:block; padding-bottom: 8px;}
+.item-editor-sidebar .tool-group .panel.creator-pointAndLineFunctionInteraction label {display:inline;}
+.item-editor-sidebar .tool-group .panel.creator-pointAndLineFunctionInteraction .incrementer-ctrl-wrapper {margin:0 5px;}
+.sidebar-popup.graph-popup { padding: 0 }
+.sidebar-popup.graph-popup h3 { margin: 0 }
+
+#creator-pointAndLineFunctionInteraction-available-graphs h3{display:block;}
+#creator-pointAndLineFunctionInteraction-available-graphs .more {font-size:16px; font-weight: bold; margin-left: 3px; color:black;display:none;}
+#creator-pointAndLineFunctionInteraction-available-graphs .more:hover {text-decoration: none; color:#666;}
+
+#creator-pointAndLineFunctionInteraction-available-graphs .sidebar-popup .panel {margin-bottom:3px; min-width:180px; position:relative; min-height: 36px;}
+#creator-pointAndLineFunctionInteraction-available-graphs .sidebar-popup .color-trigger {height : 24px; position:relative; float:none;}
+#creator-pointAndLineFunctionInteraction-available-graphs .sidebar-popup .lineStyleToggle {display:inline-block; width:100px;}
+#creator-pointAndLineFunctionInteraction-available-graphs .sidebar-popup .lineStyleToggle ~ .icon-checkbox{margin-left:-5px;}
+
+.sidebar-popup.graph-popup .panel {margin-bottom:3px; min-width:180px; position:relative; min-height: 36px;}
+.sidebar-popup.graph-popup .color-trigger {height : 24px; position:relative; top:6px;top:6px; display: inline-block; width: 48px;}
+.sidebar-popup.graph-popup .lineStyleToggle {display:inline-block; width:100px;}
+.sidebar-popup.graph-popup .lineStyleToggle ~ .icon-checkbox{margin-left:-5px;}
+
+#creator-pointAndLineFunctionInteraction-available-graphs .panel.allowSolutionSet {padding-top : 5px;}
+#creator-pointAndLineFunctionInteraction-available-graphs .panel.allowSolutionSet span.label {min-width:100px; display:inline-block;}
+
+.graph-form-container .spinner {padding-top: 5px;}
+.graph-form-container .spinner + * {float:right}
+
+input:disabled.incrementer ~ .incrementer-ctrl { display: none; }
+.incrementer-ctrl-wrapper > input { width: 50px !important; } /* overriding !important rule from spinner control lib - need this for float values */

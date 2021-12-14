@@ -1,0 +1,162 @@
+.cke_button_icon.cke_button__tableinsert_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tableinsert.png") ;
+}
+.cke_button_icon.cke_button__tabledelete_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tabledelete.png") ;
+}
+.cke_button_icon.cke_button__tableproperties_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tableproperties.png") ;
+}
+.cke_button_icon.cke_button__tablerowinsertbefore_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablerowinsertbefore.png") ;
+}
+.cke_button_icon.cke_button__tablerowinsertafter_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablerowinsertafter.png") ;
+}
+.cke_button_icon.cke_button__tablerowdelete_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablerowdelete.png") ;
+}
+.cke_button_icon.cke_button__tablecolumninsertbefore_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecolumninsertbefore.png") ;
+}
+.cke_button_icon.cke_button__tablecolumninsertafter_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecolumninsertafter.png") ;
+}
+.cke_button_icon.cke_button__tablecolumndelete_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecolumndelete.png") ;
+}
+.cke_button_icon.cke_button__tablecellinsertbefore_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellinsertbefore.png") ;
+}
+.cke_button_icon.cke_button__tablecellinsertafter_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellinsertafter.png") ;
+}
+.cke_button_icon.cke_button__tablecelldelete_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecelldelete.png") ;
+}
+.cke_button_icon.cke_button__tablecellproperties_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellproperties.png") ;
+}
+.cke_button_icon.cke_button__tablecellsmerge_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellsmerge.png") ;
+}
+.cke_button_icon.cke_button__tablecellmergeright_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellmergeright.png") ;
+}
+.cke_button_icon.cke_button__tablecellmergedown_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellmergedown.png") ;
+}
+.cke_button_icon.cke_button__tablecellsplithorizontal_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellsplithorizontal.png") ;
+}
+.cke_button_icon.cke_button__tablecellsplitvertical_icon:before {
+    content: ' ';
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("icons/tablecellsplitvertical.png") ;
+}

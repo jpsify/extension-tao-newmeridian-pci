@@ -1,0 +1,1 @@
+<span class="delete-btn"> ✖ </span>
