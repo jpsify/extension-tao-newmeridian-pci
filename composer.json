@@ -1,6 +1,6 @@
 {
 
-    "name": "oat-sa/extension-tao-newmeridian-pci",
+    "name": "jpsify/extension-tao-newmeridian-pci",
     "description" : "NMC Pci extension",
     "type" : "tao-extension",
     "authors" : [
